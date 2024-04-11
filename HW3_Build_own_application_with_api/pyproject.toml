@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hw3-build-own-application-with-api"
+version = "0.1.0"
+description = ""
+authors = ["CT "]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gradio = "^4.26.0"
+google-generativeai = "^0.5.0"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
